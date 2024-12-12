@@ -36,7 +36,7 @@ const Register = () => {
         <input type="text" placeholder="Full Name" className="input input-bordered w-full max-w-xs" ref={fullName} />
         <input type="email" placeholder="Email" className="input input-bordered w-full max-w-xs" ref={email} />
         <input type="password" placeholder="Password" className="input input-bordered w-full max-w-xs" ref={password} />
-        <input type="file" className="file-input w-full max-w-xs" ref={profilePic} />
+        {/* <input type="file" className="file-input w-full max-w-xs" ref={profilePic} /> */}
         <button type='submit' className="btn btn-primary" onClick={registerUser}>Register</button>
 
       </form>
